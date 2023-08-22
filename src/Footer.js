@@ -1,11 +1,22 @@
-import './App.css';
+import React from "react";
+import { Layout } from "./App";
 
-function Footer() {
-    return (
-        <div className='MyFooter'>
-            <span>Copyright 2023 @ Anusorn Bunteong</span>
-        </div>
-    );
+function Contact() {
+  return (
+    <>
+      <Layout />
+      <h3>Ubon Ratchathani University</h3>
+      <div>
+        85 Sathonlamark Road
+        <br />
+        Warin Chamrap District
+        <br />
+        Ubon Ratchathani
+        <br />
+        Thailand 34190
+      </div>
+    </>
+  );
 }
 
-export default Footer;
+export default Contact;
