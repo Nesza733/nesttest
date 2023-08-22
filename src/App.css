@@ -22,7 +22,12 @@
   height: 100px;
 }
 
-.photer {
-  width: 800px;
-  height: 800px;
+.MyFooter {
+  background-color: blue;
+
+  position: fixed;
+  bottom: 9px;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
